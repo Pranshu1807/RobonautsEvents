@@ -1,0 +1,314 @@
+*{
+   margin: 0rem;
+   padding: 0rem;
+   font-family: 'Exo 2', sans-serif; 
+}
+.secondaryText{
+    font-family: 'Raleway', sans-serif;
+    color: #d18410;
+}
+.subHeading{
+   color: white;
+   font-family:'Raleway', sans-serif ;
+}
+.primaryText{
+   color:black;
+   font-family: 'Judson', serif;
+}
+.header{
+ display: flex;
+background: black;
+height: 4.5rem;
+}
+.logo{
+   padding-left: 2.4rem;
+   margin-top: 0.6rem;
+}
+.logo a{
+   text-decoration: none;
+}
+.logo img{
+   padding-left: 2.1rem ;
+   height: 3rem;
+   width: 9rem;
+   cursor: pointer;
+}
+.logo h4{
+   font-style: italic;
+   padding-left: 2.64rem;
+   font-size: 0.8rem;
+}
+#navbar{
+   padding-left: 30rem;
+   margin-top: 0.3rem;
+}
+#navbar ul{
+   display: flex;
+   margin-top: 1.8rem;
+}
+#navbar a{
+   text-decoration: none;
+   color: white;
+   padding: 0rem 1.5rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+#navbar a:hover{
+   color: gray;
+}
+#navbar  .current{
+   color: #d18410;
+}
+#evn{
+   color: #d18410;
+   text-align: center;
+   /* padding-right: 6rem; */
+   background-color: black;
+   padding-bottom: 0.5rem;
+   font-size: 3.5rem;
+}
+#poster{
+   margin:1rem 6rem 1rem 6rem;
+   border-radius: 2rem;
+   height: 28rem;
+   background: rgb(223, 219, 219);
+}
+.banner{
+   display: flex;
+   border-bottom: 0.25rem solid black;
+   margin: 0rem 2rem;
+}
+.banner img{
+   height: 22rem;
+   width: 23rem;
+   padding-top: 1rem;
+   /* padding-left: 4.5rem; */
+   /* margin-left:7%; */
+}
+.postercontent{
+   line-height: 3.8rem;
+   padding-bottom: 3rem;
+   width: 65%;
+   
+}
+.postercontent h1{
+padding-left: 5rem;
+padding-top: 1.5rem;
+font-size: 6rem;
+font-weight: 700;
+color:black;
+padding-bottom: 1rem;
+}
+.postercontent h3{
+   padding-left: 10rem;
+   font-size: 2.2rem;
+   font-weight: 300;
+   color: rgb(15, 15, 15);
+}
+.postercontent h4{
+   padding-left: 11.5rem;
+   font-size: 2.2rem;
+   line-height: 1.5rem;
+   font-weight: 300;
+   color: rgb(15,15,15);
+}
+.eventdate{
+   display: flex;
+   margin-top: 3.5rem;
+}
+.eventdate h1{
+padding-left: 8rem;
+font-weight: 400;
+font-size: 3rem;
+font-family: 'Open Sans', sans-serif;
+}
+.date h3{
+   padding: 0rem;
+   font-weight: 300;
+   font-family:'Raleway', sans-serif ;
+   padding-right: 1rem;
+   border-right: 0.2rem solid black;
+   font-size: 2rem;
+   line-height: 2rem;
+}
+.date{
+   display: flex;
+   flex-direction: column;
+   padding-top: 1.5rem;
+   padding-left: 1rem;
+}
+.time{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1.2rem;
+   margin-left: 0.5rem;
+   line-height: 2.3rem;
+}
+.time h3{
+   padding: 0rem;
+   font-size: 1.5rem;
+   padding-left: 0.9rem;
+   font-family:'Raleway', sans-serif ;
+   font-weight: 500;
+   
+}
+.time h2{
+   font-size: 2.4rem;
+   font-family:'Raleway', sans-serif ;
+   font-weight: 500;
+   color: #d18410;
+}
+.organised{
+margin-left: 2rem;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+   display: flex;
+  font-family:  'Raleway', sans-serif;
+}
+.organised h1{
+   font-size: 1.5rem;
+   font-weight: 400;
+   margin-left: 0.3rem;
+   font-family:'Raleway', sans-serif ;
+}
+.organised h2{
+   margin-left: 22rem;
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family:'Raleway', sans-serif ;
+}
+.Event{
+   display: flex;
+}
+.session{
+   
+   width: 52%;
+   height: 27rem;
+   padding-left: 6rem;
+   padding-top: 1rem;
+   margin-top: 1rem;
+   border-right: 0.2rem solid black;
+   margin-bottom: 2rem;
+}
+.slideshow{
+   display: flex;
+}
+.speaker{
+   display: flex;
+   flex-direction: column;
+   line-height: 2.5rem;
+}
+.btn{
+   display: flex;
+}
+
+.speaker h2{
+   padding-top: 0.5rem;
+   font-weight: 600;
+   font-size: 1.5rem;
+}
+.speaker h1{
+   padding-top: 1rem;
+   max-width: 1rem;
+   font-size: 3.2rem;
+}
+.speakerPhoto img{
+   padding-left: 11rem;
+   padding-bottom: 2rem;
+   height: 12.5rem;
+}
+.slides{
+   display: none;
+
+}
+.slides p{
+   font-size: 1.1rem;
+   padding-right: 2.9rem;
+   font-weight: 500;
+}
+.slides p span{
+   font-weight: 600;
+}
+.prev,.next{
+   cursor: pointer;
+   font-size: 1.5rem;
+   padding: 0.2rem;
+}
+.numbertext{
+   font-size: 2rem;
+}
+.timer{
+   margin-left: 3rem;
+   margin-top: 1rem;
+}
+.clock{
+   /* background-color: rgb(223, 219, 219); */
+   height: 9rem;
+   width: 23rem;
+   border-radius: 2rem;
+   padding-top: 8rem;
+}
+.registration{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+   align-items: center;
+}
+.registration h2{
+
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 1.8rem;
+   margin-top: 0.2rem;
+   text-align: center;
+}
+.registration button{
+   background-color: rgb(96, 96, 228);
+   width: 10rem;
+   border-radius: 0.8rem;
+   margin-top: 0.7rem;
+   height: 2rem;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   cursor: pointer;
+}
+#timers {
+   padding: 1.5rem;
+   font-size: 2rem;
+   background-color: #d18410;
+   color: white;
+   font-family: "Raleway", sans-serif;
+   border-radius: 0.6rem;
+ }
+footer{
+
+   background: rgba(0, 0, 0, 0.89);
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-weight: 600; 
+}
+.copyright{
+    display: flex;
+    padding: 1.5rem;
+}
+.copyright p{
+    margin: 0rem 1.2rem;
+}
+.contact{
+    display: flex;
+    margin-left: 34.8rem;
+    padding: 1.5rem;
+}
+.contact a{
+    text-decoration: none;
+    margin: 0rem 1.2rem;
+}
+.contact a:hover,a pr{
+    color: rgb(160, 158, 158);
+    border: none;
+}
+.contact p{
+    margin: 0rem 1.2rem;
+}
